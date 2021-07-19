@@ -1,0 +1,100 @@
+.formulario{
+    display: flex;
+      justify-content: center;
+
+}
+
+fieldset {
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #FFF;
+
+}
+
+form {
+    border-radius: 25px;
+    border-color: #f2f2f2;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    
+}
+
+legend {
+    color: #FFF;
+    font-size: 24px;
+}
+
+textarea {
+    width: 400px; height: 50px;
+    transition: all 2s;
+}
+textarea:hover {
+    height: 100px; width: 400px;
+    padding: 20px;
+    
+}
+.paraCompletar {
+    font-size: 12px;
+    width: 150px; height: 20px;
+    transition: all 1s;       
+ }
+ .paraCompletar:focus {
+    width: 300px;
+    font-size: 24px;
+ }
+
+ label {
+     font-size: 14px;
+     color: #FFF;
+ }
+
+ .tituloForm {
+     font-size: 14px;
+     color: #FFF;
+ }
+
+ .puntoDeEntrega {
+     display: flex;
+     justify-content: space-evenly
+
+ }
+ .caba {
+     display: flex;
+     flex-direction: row;
+     color: #FFF;
+ }
+ .bolivar {
+     display: flex;
+     flex-direction: row;
+     color: #FFF;
+ }
+ .boton--form {
+    border: none;
+    min-width: 100px;
+    height: 50px;
+    padding: 0 30px;
+    
+    color:  #7b557c;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease all;
+    
+    background: #fff;
+}
+
+.boton--form:hover{
+        background:#6fbfb7;
+        color: #fff;
+        text-decoration: none;
+    
+}
+.botonesForm {
+    display: flex;
+    justify-content: space-evenly;
+}

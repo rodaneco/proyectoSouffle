@@ -1,547 +1,157 @@
-/* Estilos en común para todas las secciones */
-/* HEAD: Menú-nav */
 ul {
-	font-weight: regular;
-	font-size: 150% ;
+  font-weight: regular;
+  font-size: 150%;
 }
+
 li {
-	display: inline;
-	text-align: center;
-  	padding: 5px 5px;
-	
+  display: inline;
+  text-align: center;
+  padding: 5px 5px;
 }
 
 .main-nav__list {
-
   list-style-type: none;
   margin: 10px;
   padding: 10px;
   float: right;
-
-  
+  color: #FFF;
+  opacity: 50%;
+  text-decoration: none;
 }
 
-.main-nav__link {
-	
-	color: #FFF;
-	opacity: 50%;
-	text-decoration: none
+.main-nav__link:hover {
+  opacity: 100%;
 }
-
-.main-nav__link:hover{
-	opacity: 100%;
-}
-
 
 body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
 
-	background-image: linear-gradient(#993333, #f25764);
-	background-repeat: no-repeat ;
-	background-size:cover;
-	font-family: Roboto, sans-serif;
-	
+.bodyinicio {
+  background-image: linear-gradient(#993333, #f25764);
+}
 
-
-	}
-	/*BODY INICIO*/
-
-
-
-	.grilla {
-		
-		display: grid;
-		grid-template-columns: 600px auto 300px;
-		grid-template-rows: 600px;
-		justify-items: center;
-		align-items: center;
-		grid-column-gap: 30px;
-		padding: 30px;
-		
-	 
-
-	}
-	.border {
-		border: 1px solid black;
-		
-	}
-	
-
-	
-	section#recetas {
-	
-		background-color: #6fbfb7;
-		border-radius: 25px;
-		padding: 30px;
-	}
-	
-
-	.descripcion {
-		background-color: white;
-	}
-
-	 aside {
-	
-		border: solid #fff;
-		border-radius: 25px;
-		padding: 30px;
-		color: #FFF;
-		font-size: 20px;
-	
-	}
-
-
-
-		.nadamasrico { 
-						text-align: center;
-						font-size: 50px;
-						margin: 0px;
-						padding: 50px;
-						font-style: italic;
-						color: #FFF;
-			}
-
-
-
-
-		.tituloChico {
-			text-align: left;
-			color: grey;
-			font-size: 30px;
-		}
-		.tituloSeccion{
-			color:#FFF;
-			font-size: 60px;
-			text-align: center;
-		}
-		.textonovedades {
-			color:#F25764;
-			background:white;
-			padding: 35px;
-			text-align: center;
-		}
-
-		.tituloBuscador {
-			color: #fff;
-			font-size: 20px;
-			text-align: center;
-		}
-
-		.encabezado { 
-			display: flex
-			
-		}
-
-/* Sección PRODUCTOS */
-	/* HEAD PRODUCTOS */
-	.imagenproductos {
-		padding-bottom: 20px;
-		padding-top: 20px;
-	}
-	/* BODY PRODUCTOS */ 
-
-	.bodyproductos {
-		background-image: linear-gradient(#7b557c, #bf63b0);
-		background-repeat: no-repeat ;
-		background-size:cover;
-		background-position: center center;
-
-		}
-			/* TABLA PRODUCTOS */ 
-			.sabores {
-				font-style: italic;
-				color:grey;
-				text-align: right;
-				font-size: 50px;
-				margin: 0px;
-				padding: 20px;
-			
-			}
-
-			.contenedor { 
-				max-width: 100%x;
-				width: 90%;
-				margin: 0 auto;
-				font-size: 1em;
-			
-				}
-			.contenedor__productos {
-				margin: 10px 0;
-				}
-
-			.productos {
-				background: #FFF;
-				border-radius: 15px;
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-top: 10px;
-				padding-bottom: 10px;
-				display: flex;
-				align-items: center;
-				position: relative;
-				margin-bottom: 50px;
-			}
-
-			.productos__imagen {
-				width: 100px;
-				height: 200px;
-				margin-right: 20px;
-				border-radius: 100px; 
-				overflow: hidden;
-				display: inline-block;
-			}
-
-			.imagenproductos {
-				width: 50%;
-				border-radius: 25px;
-			}
-
-			.contenedor__titulo {
-				font-family: 'Roboto', sans-serif;
-				font-size: 30px;
-				font-weight: normal;
-				margin-bottom: 20px;
-			}
-
-			.contenedor__descripcion {
-				line-height: 28px;
-				color: #6D6D6D;
-				margin-bottom: 20px;
-				line-height: 1.6;
-				
-			}
-
-			.boton {
-				border: none;
-				min-width: 100px;
-				height: 50px;
-				padding: 0 30px;
-				background: #000;
-				color: #fff;
-				display: inline-block;
-				border-radius: 50px;
-				text-decoration: none;
-				display: inline-flex;
-				justify-content: space-between;
-				align-items: center;
-				transition: .3s ease all;
-			}
-			
-			.boton__texto {
-				font-weight: 600;
-			}
-
-
-
-			.boton--absolute {
-				position: absolute;
-				right: 20px;
-				bottom: -25px;
-				background: #F25764;
-			}
-
-			.boton--absolute:hover{
-				background:#993333;
-				text-decoration: none;
-			}
-
-			/*29 DÍAS DE ÑOQUIS - PRODUCTOS */
-			.tituloIntermedio {
-				text-align: center;
-				font-size: 50px;
-				margin: 0px;
-				padding: 50px;
-				font-style: italic;
-				color: #FFF;
-			}
-			.botonHistoria {
-				display: flex;
-				justify-content: center;
-			}
-			.boton--historia {
-		
-				bottom: -25px;
-				background: #6fbfb7;
-				transition: 1s;
-				
-			}
-
-			.boton--historia:hover{
-					background:#336666;
-					text-decoration: none;
-					transform: rotate(360deg);
-				
-			}
-
-			/*FORMULARIO*/
-			.formulario{
-				display: flex;
-  				justify-content: center;
-			
-			}
-
-			fieldset {
-				padding: 20px;
-				border-radius: 20px;
-				border-color: #FFF;
-
-			}
-			
-			form {
-				border-radius: 25px;
-				border-color: #f2f2f2;
-				padding: 20px;
-				width: 500px;
-				height: 500px;
-				margin: 20px;
-				
-			}
-
-			legend {
-				color: #FFF;
-				font-size: 24px;
-			}
-
-			textarea {
-				width: 400px; height: 50px;
-				transition: all 2s;
-			}
-			textarea:hover {
-				height: 100px; width: 400px;
-				padding: 20px;
-				
-			}
-			.paraCompletar {
-				font-size: 12px;
-				width: 150px; height: 20px;
-				transition: all 1s;       
-			 }
-			 .paraCompletar:focus {
-				width: 300px;
-				font-size: 24px;
-			 }
-
-			 label {
-				 font-size: 14px;
-				 color: #FFF;
-			 }
-
-			 .tituloForm {
-				 font-size: 14px;
-				 color: #FFF;
-			 }
-
-			 .puntoDeEntrega {
-				 display: flex;
-				 justify-content: space-evenly
-
-			 }
-			 .caba {
-				 display: flex;
-				 flex-direction: row;
-				 color: #FFF;
-			 }
-			 .bolivar {
-				 display: flex;
-				 flex-direction: row;
-				 color: #FFF;
-			 }
-			 .boton--form {
-				border: none;
-				min-width: 100px;
-				height: 50px;
-				padding: 0 30px;
-				
-				color:  #7b557c;
-				display: inline-block;
-				border-radius: 50px;
-				text-decoration: none;
-				display: inline-flex;
-				justify-content: space-between;
-				align-items: center;
-				transition: .3s ease all;
-				
-				background: #fff;
-			}
-
-			.boton--form:hover{
-					background:#6fbfb7;
-					color: #fff;
-					text-decoration: none;
-				
-			}
-			.botonesForm {
-				display: flex;
-				justify-content: space-evenly;
-			}
-
-
-/* SECCIÓN HISTORIA */
-
-		.historia { 
-			max-width: 1000px;
-			width: 90%;
-			margin: 0 auto;
-			font-size: 1em;
-			
-			}
-
-		.historia__histContenido {
-		margin: 10px 0;
-		}
-	
-		.histContenido__titulo {
-			font-family: 'Roboto', sans-serif;
-			font-size: 30px;
-			font-weight: normal;
-			margin-bottom: 20px;
-		}		
-
-		.histContenido__descripcion {
-			line-height: 28px;
-			color: #6D6D6D;
-			margin-bottom: 20px;
-			line-height: 1.6;
-			
-		}
-
-		.histContenido {
-			background: #FFF;
-			border-radius: 15px;
-			padding-left: 20px;
-			padding-right: 20px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			display: flex;
-			align-items: center;
-			position: relative;
-			margin-bottom: 50px;
-		}
-
-
-/* Sección RECETAS DULCES */
-	/* HEAD RECETAS DULCES */
-		.imagenrecetasdulces {
-			padding-bottom: 20px;
-			padding-top: 20px; 
-		}
-
-		.imagenrecetassaladas {
-			padding-bottom: 20px;
-			padding-top: 20px; 
-		}
-		
+.bodyproductos {
+  background-image: linear-gradient(#7b557c, #bf63b0);
+}
 
 .bodyrecetas {
-	background-image: url(/imagenes/portada.jpg);
-	background-repeat: no-repeat ;
-	background-size:cover;
-	background-position: center center;
-
-	}
-		/*TABLA RECETAS DULCES Y SALADAS*/
-		.tablaRecetas {
-			
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: space-evenly;
-			align-content: space-evenly;
-
-		}
-
-
-
-		.recetasContenedor {
-			width: 300px;
-			height: 600px;
-			margin: 5px;
-			padding: 5px;
-		}
-
-		.recetasContenedor:hover {
-			width: 300px;
-			height: 900px;
-			margin: 5px;
-			padding: 5px;
-			background-color: #fff;
-			color: #7b557c;
-			border-radius: 25px;
-			
-		}
-
-		.imagenRecetas {
-
-			border-radius: 25px;
-		}
-
-		.tituloRecetas {
-			color: #FFF;
-			font-size: 30px;
-		}
-		.recetas__descripcion {
-			
-			color: #FFF;
-			margin-bottom: 20px;
-			line-height: 1.6;
-		
-		}
-
-
-/* SECCIÓN SOBRE MI*/
-
-main {
-	display: flex;
-	justify-content: center;
+  background-image: linear-gradient(#336666, #6fbfb7);
 }
-	.seccionSobreMi { 
-		max-width: 1000px;
-		width: 90%;
-		margin: 0 auto;
-		font-size: 1em;
-		margin: 10px;
 
-		}
+.grilla {
+  display: grid;
+  grid-template-columns: 600px auto 300px;
+  grid-template-rows: 600px;
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 30px;
+  padding: 30px;
+}
 
-	.sobreMi{
-			background: #FFF;
-			border-radius: 15px;
-			padding-left: 20px;
-			padding-right: 20px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			display: flex;
-			align-items: center;
-			position: relative;
-			margin-bottom: 50px;
+.formulario {
+  display: flex;
+  justify-content: center;
+}
 
-		}
+fieldset {
+  padding: 20px;
+  border-radius: 20px;
+  border-color: #FFF;
+}
 
-	.imagenSobreMi {
-			width: 200px;
-			height: 200px;
-			margin-right: 20px;
-			border-radius: 100px; 
-			overflow: hidden;
-			display: inline-block;
-		}
+form {
+  border-radius: 25px;
+  border-color: #f2f2f2;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
 
-	.sobreMi__descripcion{
-			
-				line-height: 28px;
-				color: #6D6D6D;
-				margin-bottom: 20px;
-				line-height: 1.6;
-				
-				}
+legend {
+  color: #FFF;
+  font-size: 24px;
+}
 
-	.boton--sobreMi {
-		
-		background: #6fbfb7;
-		
-				}
-		
-	.boton--sobreMi:hover{
-						background:#336666;
-						text-decoration: none;
-					
-				}
+textarea {
+  width: 400px;
+  height: 50px;
+  transition: all 2s;
+}
 
+textarea:hover {
+  height: 100px;
+  width: 400px;
+  padding: 20px;
+}
+
+.paraCompletar {
+  font-size: 12px;
+  width: 150px;
+  height: 20px;
+  transition: all 1s;
+}
+
+.paraCompletar:focus {
+  width: 300px;
+  font-size: 24px;
+}
+
+label {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.tituloForm {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.puntoDeEntrega {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caba {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+}
+
+.bolivar {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+}
+
+.boton--form {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0 30px;
+  color: #7b557c;
+  display: inline-block;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease all;
+  background: #fff;
+}
+
+.boton--form:hover {
+  background: #6fbfb7;
+  color: #fff;
+  text-decoration: none;
+}
+
+.botonesForm {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=style.css.map */
