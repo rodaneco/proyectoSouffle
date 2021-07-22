@@ -10,19 +10,16 @@ li {
 }
 
 .main-nav__list {
-  list-style-type: none;
   margin: 10px;
   padding: 10px;
   float: right;
-  color: #FFF;
   opacity: 50%;
-  text-decoration: none;
 }
 
-.main-nav__link:hover {
-  opacity: 100%;
-}
-
+/*
+.main-nav__link:hover{
+	opacity:100%;
+}*/
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,6 +178,133 @@ label {
   color: #FFF;
   margin-bottom: 20px;
   line-height: 1.6;
+}
+
+.historia {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.historia__histContenido {
+  margin: 10px 0;
+}
+
+.histContenido__titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.histContenido__descripcion {
+  line-height: 28px;
+  color: #6D6D6D;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.histContenido {
+  background: #FFF;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.seccionSobreMi {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1em;
+  margin: 10px;
+}
+
+.sobreMi {
+  background: #FFF;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.imagenSobreMi {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.sobreMi__descripcion {
+  line-height: 28px;
+  color: #6D6D6D;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.boton--sobreMi {
+  background: #6fbfb7;
+}
+
+.boton--sobreMi:hover {
+  background: #336666;
+  text-decoration: none;
+}
+
+.nadamasrico {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 50px;
+  font-style: italic;
+  color: #FFF;
+}
+
+.tituloChico {
+  text-align: left;
+  color: grey;
+  font-size: 30px;
+}
+
+.tituloSeccion {
+  color: #FFF;
+  font-size: 60px;
+  text-align: center;
+}
+
+.textonovedades {
+  color: #F25764;
+  background: white;
+  padding: 35px;
+  text-align: center;
+}
+
+.tituloBuscador {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.encabezado {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

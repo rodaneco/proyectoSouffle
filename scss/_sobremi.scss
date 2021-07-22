@@ -1,0 +1,56 @@
+main {
+	display: flex;
+	justify-content: center;
+}
+	.seccionSobreMi { 
+		max-width: 1000px;
+		width: 90%;
+		margin: 0 auto;
+		font-size: 1em;
+		margin: 10px;
+
+		}
+
+	.sobreMi{
+			background: #FFF;
+			border-radius: 15px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: flex;
+			align-items: center;
+			position: relative;
+			margin-bottom: 50px;
+
+		}
+
+	.imagenSobreMi {
+			width: 200px;
+			height: 200px;
+			margin-right: 20px;
+			border-radius: 100px; 
+			overflow: hidden;
+			display: inline-block;
+		}
+
+	.sobreMi__descripcion{
+			
+				line-height: 28px;
+				color: #6D6D6D;
+				margin-bottom: 20px;
+				line-height: 1.6;
+				
+				}
+
+	.boton--sobreMi {
+		
+		background: #6fbfb7;
+		
+				}
+		
+	.boton--sobreMi:hover{
+						background:#336666;
+						text-decoration: none;
+					
+				}

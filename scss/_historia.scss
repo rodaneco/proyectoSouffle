@@ -1,0 +1,39 @@
+.historia { 
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1em;
+    
+    }
+
+.historia__histContenido {
+margin: 10px 0;
+}
+
+.histContenido__titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}		
+
+.histContenido__descripcion {
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+
+.histContenido {
+    background: #FFF;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}

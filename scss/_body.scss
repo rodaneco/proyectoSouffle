@@ -20,6 +20,14 @@ body {
     background-image: linear-gradient(#336666, #6fbfb7);
      }
 
+@mixin condicion ($gradiante){
+	background-color: $gradiante;
+	@if $gradiante == linear-gradient(#993333, #f25764) 
+	{h3: white;}
+	@else { h3:red}
+}
+
+
 
 .grilla {
 		
