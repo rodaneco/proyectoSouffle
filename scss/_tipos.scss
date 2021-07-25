@@ -1,13 +1,5 @@
-.nadamasrico { 
-    text-align: center;
-    font-size: 50px;
-    margin: 0px;
-    padding: 50px;
-    font-style: italic;
-    color: #FFF;
-}
-
-
+//Variables
+$color: red;
 
 
 .tituloChico {
@@ -36,4 +28,14 @@ text-align: center;
 .encabezado { 
 display: flex
 
+}
+
+p {
+    @if $color == white {
+        color:white;
+    } @else if $color == black {
+        color: black;
+    } @else if $color == grey {
+        color: grey;
+    } @else {color: indigo;}
 }

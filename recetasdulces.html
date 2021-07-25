@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/style.css">
@@ -27,60 +28,57 @@
 </head>
 	
 	<h3 class="tituloBuscador">Qué ingredientes tenés?</h3> <!-- Buscador con filtros para poner ingredientes. -->
-	
-	<div class="tablaRecetas">
+	<section class="recetas">
+		<div class="card">
+			<div class="row g-0">
+			  <div class="col-5 col-sm-4">
+				<img src="imagenes/recetasdulces1.jpg" class="img-fluid w-100" alt="card-horizontal-image">
+			  </div>
+			  <div class="col-7 col-sm-8">
+				<div class="card-body">
+					<h5 class="card-title">Cheescake</h5>
 
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces1.jpg" alt="Imagen-cheescake"width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Cheescake</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces2.jpg" alt="Imagen-budin" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Budin</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces3.jpg" alt="Imagen-cupcakes" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Cupcakes</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces4.jpg" alt="Imagen-carrot-cake" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Carrot Cake</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces5.jpg" alt="Imagen-Galletitas-dulces" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Galletitas Dulces</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces6.jpg" alt="Imagen-pepas" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Pepas</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces7.jpg" alt="Imagen-rogel" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Rogel</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
-			<div class="recetasContenedor">
-				<img src="imagenes/recetasdulces8.jpg" alt="Imagen-Crema-pastelera" width="300" height="300" class="imagenRecetas">
-				<h3 class="tituloRecetas">Crema Pastelera</h3>
-				<p class="recetas__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quas numquam at excepturi necessitatibus, nam veniam quaerat eum cupiditate voluptas laudantium hic, iusto sit quibusdam adipisci nisi exercitationem! Earum, veritatis.</p>
-			</div>
+					<p class="card-text">
+						<h6>Ingredientes</h6>
+						<h6>🍪Para la base:</h6><br>
+						<ul>
+							<li>✔️ 200gr de galletitas tipo maria</li>
+							<li>✔️ 5 cucharadas de leche o manteca</li>
+						  </ul><br>
+						<h6>🧀Para la crema de queso:</h6><br>
 
-	</div>
+						<ul>
+							<li>✔️ 600gr de queso crema</li>
+							<li>✔️ 160gr de azúcar</li>
+							<li>✔️ 200gr de crema</li>
+							<li>✔️ 2 huevos</li>
+							<li>✔️ 1 cdita de esencia de vainilla</li>
+							<li>✔️ jugo de 1 limon</li>
+							<li>✔️ 1 cda de fécula de maíz</li>
+							<li>✔️ 200gr Frutos rojos o mermelada para cubir</li>
+						  </ul>
+						Manos a la obra 👩‍🍳🙌🍳:⠀<br><br>
+						👉🏼Con ayuda de una procesadora (o una bolsa y un balo de amasar) trituramos las galletitas, hasta que queden trozos pequeños<br>
+						👉🏼Le agregamos la leche o la manteca e integramos con ayuda de una espátula, tiene que quedar un granulado húmedo⠀<br>
+						👉🏼En un molde desmontable⚡si no tienes podes usar uno común, pero tienes que enmantecarlo si o si y ponerle un disco de papel manteca en la base⚡colocamos el arenado y hacemos presión para que se compacte y formar la base. <br>
+						👉🏼Lo llevamos al freezer mientras preparamos la crema de queso<br>
+						👉🏼En un bowl colocamos el queso crema y el azúcar, batimos hasta integrar<br>
+						👉🏼Colocamos los huevos, de a 1 para que sea mas fácil incorporarlos<br>
+						👉🏼En un recipiente aparte disolvemos la fécula de maiz en el jugo de limon y la incorporamos a la mezcla⠀<br>
+						👉🏼También sumamos la crema y la esencia de vainilla, mezclamos hasta incorporar y lo colocamos en el molde que habíamos llevado al freezer⠀<br>
+						👉🏼Lo llevamos a un horno 180º por 1h. <br>
+						🍓Cuando este lista déjala enfriar dentro del horno⠀<br>
+						🍓Una vez fría llévala al freezer para que la puedas desmoldar y servir mas fácil⠀<br>
+						👉🏼Después de presentarla le colocamos por arriba una buena mermelada de frutos rojos.
+					</p>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+
+	</section>
 
 </body>
-<footer class="zocalo">
-	<nav class="main-nav">
-		<ul class="main-nav__list">
-			<li class="main-nav__item"><a href="#" class="main-nav__link">Contacto</a></li>
-			<li class="main-nav__item"><a href="#" class="main-nav__link">Información útil</a></li>
-			<li class="main-nav__item"><a href="#" class="main-nav__link">Preguntas frecuentes</a></li>
-		</ul>
-	</nav>	
+<footer class="zocalo">	
 </footer>
 </html>
